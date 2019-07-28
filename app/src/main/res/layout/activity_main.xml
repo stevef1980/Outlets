@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Button 1 -->
+    <TextView
+        style="@style/OutletLabel"
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center_horizontal"
+        android:text="Living Room 1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        style="@style/OnOffButton"
+        android:id="@+id/btnOn1"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/strOn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        style="@style/OnOffButton"
+        android:id="@+id/btnOff1"
+        android:layout_marginEnd="24dp"
+        android:text="@string/strOff"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btnOn1"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Button 2 -->
+    <TextView
+        style="@style/OutletLabel"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center_horizontal"
+        android:text="Living Room 2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnOn1" />
+
+    <Button
+        style="@style/OnOffButton"
+        android:id="@+id/btnOn2"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/strOn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        style="@style/OnOffButton"
+        android:id="@+id/btnOff2"
+        android:layout_marginEnd="24dp"
+        android:text="@string/strOff"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btnOn2"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Button 3 -->
+    <TextView
+        style="@style/OutletLabel"
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center_horizontal"
+        android:text="Ashlie Night Stand"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnOn2" />
+
+    <Button
+        style="@style/OnOffButton"
+        android:id="@+id/btnOn3"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/strOn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        style="@style/OnOffButton"
+        android:id="@+id/btnOff3"
+        android:layout_marginEnd="24dp"
+        android:text="@string/strOff"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btnOn3"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Button 4 -->
+    <TextView
+        style="@style/OutletLabel"
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center_horizontal"
+        android:text="Steve's Night Stand"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnOn3" />
+
+    <Button
+        style="@style/OnOffButton"
+        android:id="@+id/btnOn4"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/strOn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <Button
+        style="@style/OnOffButton"
+        android:id="@+id/btnOff4"
+        android:layout_marginEnd="24dp"
+        android:text="@string/strOff"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btnOn4"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Button 5 -->
+    <TextView
+        style="@style/OutletLabel"
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center_horizontal"
+        android:text="Front Room Table Lamp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnOn4" />
+
+    <Button
+        style="@style/OnOffButton"
+        android:id="@+id/btnOn5"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/strOn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <Button
+        style="@style/OnOffButton"
+        android:id="@+id/btnOff5"
+        android:layout_marginEnd="24dp"
+        android:text="@string/strOff"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btnOn5"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Button 6 -->
+    <TextView
+        style="@style/OutletLabel"
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center_horizontal"
+        android:text="Front Room Floor Lamp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnOn5" />
+
+    <Button
+        style="@style/OnOffButton"
+        android:id="@+id/btnOn6"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/strOn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <Button
+        style="@style/OnOffButton"
+        android:id="@+id/btnOff6"
+        android:layout_marginEnd="24dp"
+        android:text="@string/strOff"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btnOn6"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Button 7 -->
+    <TextView
+        style="@style/OutletLabel"
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center_horizontal"
+        android:text="Front Room TV Lamps"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnOn6" />
+
+    <Button
+        style="@style/OnOffButton"
+        android:id="@+id/btnOn7"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/strOn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <Button
+        style="@style/OnOffButton"
+        android:id="@+id/btnOff7"
+        android:layout_marginEnd="24dp"
+        android:text="@string/strOff"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btnOn7"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
